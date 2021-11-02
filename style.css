@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -14,7 +14,7 @@
 
 /*===== Fonts=====*/
 :root {
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Montserrat", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -192,6 +192,7 @@ img {
 
 .nav__logo {
   color: var(--second-color);
+  font-size: 2.5rem;
 }
 
 .nav__toggle {
@@ -349,30 +350,6 @@ img {
   -ms-flex-align: center;
   align-items: center;
 }
-
-/* .skills__bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: .25rem;
-  border-radius: .5rem;
-  z-index: var(--z-back);
-}
-
-.skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
-}
-
-.skills__js {
-  width: 65%;
-}
-
-*/
 
 .skills__ux {
   width: 65%;
